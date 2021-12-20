@@ -2,9 +2,13 @@ body{
     font-family: 'montserrat';
 }
 
+.content{
+    margin-top: 2rem;
+    padding-top: 2rem;
+}
 
 .images{
-    margin-top: 20vh;
+    margin-top: 2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -64,6 +68,7 @@ body{
 }
 
 .chapter span:nth-of-type(2),.chapter span:nth-of-type(3){
+    margin-top: 2rem;
     padding: 0 2rem;
 }
 
@@ -75,7 +80,7 @@ body{
 .video{
     display: flex;
     justify-content: center;
-    margin: 2rem auto;
+    margin: 2rem 1rem;
 }
 
 iframe{
