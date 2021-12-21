@@ -1,38 +1,49 @@
-.footer{
+.footer div{
     background-color: rgba(221, 221, 221, 0.205);
-    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.footer span{
-    margin: 2rem auto;
+.footer .heading{
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
 }
 
-.footer span:nth-child(1){
-    font-size: 1.75rem;
+.footer .footer-text{
+    font-size: 1.5rem;
+}
+
+.footer img{
+    margin: 0.26rem 0.5rem 2rem;
+    height: 2rem;
+    transition: 0.5s;
+}
+
+.footer img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.footer .footer-text-2{
+    font-size: 1.5rem;
+
+}
+
+.footer-email{
+    margin-bottom: 3.5rem;
     font-weight: bold;
 }
-
-.form-group{
-    display: flex;
-    flex-direction: column;
+.footer-email a{
+    color: black;
+}
+.footer-email:hover{
+    text-decoration: underline;
 }
 
-#emailInput{
-    margin-bottom: 2rem;
-    border-radius: 10px;
-    width: 400px;
-}
-
-#messageInput{
-    border-radius: 10px;
-    padding: 2%;
-}
-
-.footer span:nth-child(3){
-    align-self: flex-start;
-    font-size: 0.75rem;
+.footer .copyright{
+    margin-bottom: 1.5rem;
 }

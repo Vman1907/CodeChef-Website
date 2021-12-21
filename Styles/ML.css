@@ -12,7 +12,7 @@ body{
     flex-direction: column;
 }
 
-img{
+.content img{
     vertical-align: middle;
     width: 30vw;
     margin-bottom: 3rem ;
